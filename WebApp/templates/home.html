@@ -23,16 +23,16 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+            <form class="d-flex" method="post" action="{% url 'logout' %}">
+              {%csrf_token%}
+              <button class="btn btn-outline-danger" type="submit">Logout</button>
             </form>
           </div>
         </div>
       </nav>
       <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3">Test</div>
+            <div class="col-md-3"></div>
             <div class="col-md-5 mt-4">
                 <!-- main content -->
                 <div class="main-content p-3 m-2" style="border: 1px solid lightgray;border-radius: 8px;">
