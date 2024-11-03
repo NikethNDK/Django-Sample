@@ -1,0 +1,15 @@
+{%extends 'base.html'%}
+{% load static %}
+{% block title %}Login Page{% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/login.css' %}">
+{% endblock %}
+{% block content %}
+<div class="container container-size pb-4">
+    <label for="email">Email ID</label>
+    <input type="email" class="form-control">
+    <label for="password">Password</label>
+    <input type="password" class="form-control">
+    <button class="btn btn-primary position">Login</button>
+</div>
+{% endblock %}

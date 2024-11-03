@@ -1,0 +1,76 @@
+.work-detail {
+    display: flex; 
+    align-items: center;                       
+    gap: 7px;  
+                   
+}
+.work-detail-position{
+    margin: 10px 15px 10px 0px;  
+}
+.work-detail img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+.work-detail span{
+    font-weight: bold;
+    font-size:12px;
+    line-height: 16px;
+    color: rgb(71, 71, 71);
+}
+.main-actions>.work-detail{
+    padding: 0.2rem;
+}
+.main-actions .work-detail img{
+    width: 2rem;
+}
+
+.write-post>.work-detail>span input{
+    width: 27rem;
+    padding: 14px;
+    border-radius: 22px;
+    border: 1px solid lightgrey;
+}
+
+.write-post>.work-detail>span input::placeholder {
+    font-weight: 600;
+    color: grey;
+}
+
+.write-post>.work-detail>span input:hover{
+    background-color: rgba(235, 233, 233, 0.627);
+}
+.main-actions>.work-detail a:hover{
+    background-color: rgba(238, 236, 236, 0.667);
+}
+/* end of section for write a post  */
+
+.post-card{
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+/* posted by user details */
+.post-user-details{
+    margin-top: 6px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.post-user-details h6{
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+}
+
+.post-user-details>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.post-user-details>span p{
+    margin-top: 4px;
+    font-size: 12px;
+    color: rgba(57, 55, 55, 0.833);
+}

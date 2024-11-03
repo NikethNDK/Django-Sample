@@ -1,0 +1,11 @@
+# Force all Python files to use LF (Unix-style) line endings
+*.py text eol=lf
+
+# Force shell scripts and configuration files to use LF
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# For Windows-specific text files, enforce CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
